@@ -1,4 +1,4 @@
-# Angular Assignment - Keep	Level 1
+# Angular Keep_Level 1
 	
 ## Objective:	
 	
@@ -23,7 +23,7 @@ By the end of the assignment you should be able to understand
 4. Run the backend `json-server server/db.json`  which shall run on port:3000  
 5. Run the frontend `npm run start` which shall run on port:4200  
 	
-## Assignment:	
+## Steps:	
 	
 Create a Angular Application similar to Google Keep with the following specs.	
 	
@@ -48,34 +48,13 @@ Create a Angular Application similar to Google Keep with the following specs.
 	5.1 `getNotes()` to fetch the notes collection  
 	5.2 `addNote()` to persist a note to server  
 6. In case you have implemented this -> `json-server should host and serve angular application and notes api `, please add the necessary steps to run the application in this same file.  
-7. Ensure following commands succeed in your local machine before submitting your code for Preliminary automated review as described next -  
-```
+7. Ensure following commands succeed in your local machine -
 npm install
 npm run build
 npm run lint
 npm run test
 npm run e2e
 ```
-
-## Submitting your solution for preliminary automated review  
-1. Open `https://hobbes.stackroute.in/#/` and login into the platform  
-2. Under `Assignment repository` select `angular-keep-level-1-assignment`, and branch `master`
-3. Under `Your solution repository` select your own repository and branch
-4. Press `Submit`
-5. Press `click here` for the feedback
-6. Evaluation will take around 5 mins to complete after which you need to refresh your browser and get the updated status
-7. Watch out for your total score and detailed status on each test and eslint errors in the coloured blocks on the screen  
-8. Fix failing test cases as well as eslint errors and re-submit your solution (you may skip any eslint errors reported in the provided spec files) 
-
-## MENTORS TO BEGIN REVIEW YOUR WORK ONLY AFTER ->
-
-- You add the respective Mentor as a Reporter/Master into your Assignment Repository
-
-- You have checked your Assignment on the Automated Evaluation Tool - Hobbes (Check for necessary steps in your Boilerplate - README.md file. ) and got the required score - Check with your mentor about the Score you must achieve before it is accepted for Manual Submission.
-
-- Intimate your Mentor on Slack and/or Send an Email to learner.support@stackroute.in - with your Git URL - Once you are done working and are ready for final submission.
-
-
 
 ## References:	
 	
