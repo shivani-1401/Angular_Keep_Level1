@@ -28,7 +28,7 @@
 <div class="notes-section" *ngIf="noteList && noteList.length">
     <h2>Added Notes:</h2>
     <mat-card *ngFor="let note of noteList">
-        <mat-card-title>{{note.title}}</mat-card-title><br>
+        <mat-card-title>{{note.title}}</mat-card-title>
         <mat-card-content>{{note.text}}</mat-card-content>
     </mat-card>
 </div>

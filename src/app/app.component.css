@@ -1,21 +1,25 @@
 .add-note-section {
-    margin-left: 25%;
-    width: 50%;
+  margin: 5% 25%;
+  width: 50%;
+}
+
+mat-panel-title {
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .mat-input {
-    width: 100%;
+  width: 100%;
 }
 
-.notes-section{
-    width: 50%;
-    margin-left: 25%;
+.notes-section {
+  width: 50%;
+  margin-left: 25%;
 }
 
 mat-card {
-    display: flex;
-    flex-direction: column;
-    margin-right: 15px;
-    margin-bottom: 20px;
-
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
